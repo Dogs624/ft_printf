@@ -6,11 +6,11 @@
 /*   By: jvander- <jvander-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/13 11:55:18 by jvander-          #+#    #+#             */
-/*   Updated: 2021/08/17 15:41:49 by jvander-         ###   ########.fr       */
+/*   Updated: 2021/08/18 13:59:16 by jvander-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int	ft_putstr(char const *str)
 {

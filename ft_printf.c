@@ -6,11 +6,11 @@
 /*   By: jvander- <jvander-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/13 10:57:06 by jvander-          #+#    #+#             */
-/*   Updated: 2021/08/18 10:17:51 by jvander-         ###   ########.fr       */
+/*   Updated: 2021/08/18 13:58:44 by jvander-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 static	int	ft_treat(char c, va_list args)
 {

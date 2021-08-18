@@ -6,9 +6,11 @@
 /*   By: jvander- <jvander-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/17 14:17:38 by jvander-          #+#    #+#             */
-/*   Updated: 2021/08/18 09:26:01 by jvander-         ###   ########.fr       */
+/*   Updated: 2021/08/18 13:58:35 by jvander-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 int	ft_nb_len(int nbr)
 {
