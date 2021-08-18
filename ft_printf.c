@@ -6,7 +6,7 @@
 /*   By: jvander- <jvander-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/13 10:57:06 by jvander-          #+#    #+#             */
-/*   Updated: 2021/08/17 15:30:11 by jvander-         ###   ########.fr       */
+/*   Updated: 2021/08/18 10:17:51 by jvander-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,17 +23,17 @@ static	int	ft_treat(char c, va_list args)
 	if (c == 'd')
 		return (ft_putnbr_base(va_arg(args, int), "0123456789"));
 	if (c == 'u')
-		return (ft_putnbr_base(va_arg(args, unsigned int), "0123456789"));
+		return (ft_putnbr_base_u(va_arg(args, unsigned int), "0123456789"));
 	if (c == 'p')
 	{	
 		ft_putstr("0x");
-		return (ft_putnbr_base((unsigned long long)va_arg(args, void *),
+		return (ft_putnbr_base_ull((unsigned long long)va_arg(args, void *),
 				"0123456789abcdef") + 2);
 	}
 	if (c == 'x')
-		return (ft_putnbr_base(va_arg(args, int), "0123456789abcdef"));
+		return (ft_putnbr_base_u(va_arg(args, int), "0123456789abcdef"));
 	if (c == 'X')
-		return (ft_putnbr_base(va_arg(args, int), "0123456789ABCDEF"));
+		return (ft_putnbr_base_u(va_arg(args, int), "0123456789ABCDEF"));
 	if (c == '%')
 		return (ft_putchar('%'));
 	return (0);

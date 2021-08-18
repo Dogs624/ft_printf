@@ -6,14 +6,14 @@
 /*   By: jvander- <jvander-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/17 14:17:38 by jvander-          #+#    #+#             */
-/*   Updated: 2021/08/17 15:15:53 by jvander-         ###   ########.fr       */
+/*   Updated: 2021/08/18 09:26:01 by jvander-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_nb_len(long long nbr)
+int	ft_nb_len(int nbr)
 {
 	int					ret;
-	long long	nbr_use;
+	long long			nbr_use;
 
 	ret = 1;
 	nbr_use = nbr;
