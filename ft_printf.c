@@ -6,7 +6,7 @@
 /*   By: jvander- <jvander-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/13 10:57:06 by jvander-          #+#    #+#             */
-/*   Updated: 2021/08/18 13:58:44 by jvander-         ###   ########.fr       */
+/*   Updated: 2021/08/27 11:40:41 by jvander-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ int	ft_printf(const char *str, ...)
 	while (str[i])
 	{
 		if (str[i] != '%')
-		{
+		{	
 			to_ret += ft_putchar(str[i]);
 			i++;
 		}

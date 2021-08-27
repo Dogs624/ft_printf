@@ -6,7 +6,7 @@
 #    By: jvander- <jvander-@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/02 10:07:20 by jvander-          #+#    #+#              #
-#    Updated: 2021/08/18 10:17:44 by jvander-         ###   ########.fr        #
+#    Updated: 2021/08/25 09:33:21 by jvander-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME	=	libftprintf.a
 
 CC		=	gcc
 
-HEADERS = libftprintf.h
+HEADERS = 	ft_printf.h
 
 FLAGS	=	-Wall -Werror -Wextra -I$(HEADERS)
 

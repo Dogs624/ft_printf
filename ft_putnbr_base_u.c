@@ -6,13 +6,13 @@
 /*   By: jvander- <jvander-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/18 13:58:55 by jvander-          #+#    #+#             */
-/*   Updated: 2021/08/18 14:16:28 by jvander-         ###   ########.fr       */
+/*   Updated: 2021/08/27 14:43:55 by jvander-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putnbr_base_u(unsigned int nbr, char *base)
+int	ft_putnbr_base_u(unsigned int nbr, const char *base)
 {
 	char				nb_to_print[256];
 	int					cpt;

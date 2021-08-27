@@ -6,28 +6,26 @@
 /*   By: jvander- <jvander-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/17 14:17:38 by jvander-          #+#    #+#             */
-/*   Updated: 2021/08/18 13:58:35 by jvander-         ###   ########.fr       */
+/*   Updated: 2021/08/18 14:23:32 by jvander-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_nb_len(int nbr)
+int	ft_nb_len(long long nbr)
 {
 	int					ret;
-	long long			nbr_use;
 
 	ret = 1;
-	nbr_use = nbr;
 	if (nbr < 0)
 	{
 		ret++;
-		nbr_use = -nbr;
+		nbr = -nbr;
 	}
-	while (nbr_use > 9)
+	while (nbr > 9)
 	{
 		ret++;
-		nbr_use /= 10;
+		nbr /= 10;
 	}
 	return (ret);
 }
